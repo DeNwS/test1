@@ -178,7 +178,9 @@ section {
     margin: 0;
     padding: 0;
     list-style: none;
-    text-align: justify;
+}
+.photo li + li {
+    margin-left: 16px;
 }
 .block6 li {
     margin-bottom: 18px;
